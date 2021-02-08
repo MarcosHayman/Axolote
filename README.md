@@ -1,2 +1,3 @@
 # Axolote
-A site for learning html
+
+A site about Axolotl, in portuguese Axolote, for learning html
