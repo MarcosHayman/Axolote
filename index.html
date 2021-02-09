@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Axolote</title>
+    <style>
+      body {
+        background-color: lightsalmon;
+      }
+      h1 {
+        color: lightslategrey;
+        margin-left: 15%;
+      }
+      .top-buttons {
+        font-size: x-large;
+        margin-left: 20px;
+      }
+      #Axolote {
+        object-fit: cover;
+        width: 50%;
+        height: 50%;
+      }
+      #up-button {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header><h1>Axolote</h1></header>
+    <nav>
+      <a class="top-buttons" href="index.html">Home</a>
+      <a class="top-buttons" href="">Tabela com Valores</a>
+      <a class="top-buttons" href="https://pt.wikipedia.org/wiki/Ambystoma_mexicanum">Wikipedia</a>
+    </nav>
+    <main>
+      <img id="Axolote" src="imagens/Axolote.jpg" alt="Axolote debaixo d'água e em cima de um tronco" />
+    </main>
+    <footer>
+      <a href="#">
+        <img id="up-button" src="/imagens/UI/arrow-up.png" alt="click para ir ao topo da página" />
+      </a>
+    </footer>
+  </body>
 </html>
