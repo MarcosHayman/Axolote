@@ -13,6 +13,12 @@ nav {
   font-size: x-large;
   margin-right: 15px;
 }
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 img#Axolote {
   padding-left: 15%;
   padding-right: 25%;
@@ -27,4 +33,10 @@ img#Axolote {
   width: 30px;
   height: 30px;
   object-fit: cover;
+}
+.texto-informacional {
+  width: 75%;
+}
+p {
+  text-align: justify;
 }
